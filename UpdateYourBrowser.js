@@ -3,7 +3,7 @@ function(){
 	var update = document.getElementById('UpdateYourBrowser');
 	
 	var content = 
-	//'<!--[if lt IE 9]>'+
+	'<!--[if lt IE 9]>'+
 			'<style type="text/css">'+
 				'#UpdateYourBrowser{z-index:-2147483647;position:absolute;left:25%;top:25%;}'+
 			'</style>'+
@@ -15,7 +15,7 @@ function(){
 					'<area shape="rect" coords="340,180,450,320" href="http://www.opera.com/download/" target="_blank" title="Download Opera" alt="Download Opera" />'+
 					'<area shape="rect" coords="480,180,590,320" href="http://www.apple.com/safari/download/" target="_blank" title="Download Apple Safari" alt="Download Apple Safari" />'+
 				'</map>'+
-	//'<![endif]-->'+
+	'<![endif]-->'+
 	'';
 	
 	update.innerHTML = content;
