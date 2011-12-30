@@ -1,6 +1,10 @@
-(
-function(){
-	var update = document.getElementById('UpdateYourBrowser');
+// UpdateYourBrowser by Adrian Sieber
+
+(function(){
+	var container = document.createElement('div');
+		container.setAttribute('id','UpdateYourBrowser');
+		
+	document.body.appendChild(d);
 	
 	var content = 
 	'<!--[if lt IE 9]>'+
@@ -18,6 +22,6 @@ function(){
 	'<![endif]-->'+
 	'';
 	
-	update.innerHTML = content;
-}
-)();
+	container.innerHTML = content;
+	
+})();
