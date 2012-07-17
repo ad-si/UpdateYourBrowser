@@ -4,7 +4,7 @@
 	var container = document.createElement('div');
 		container.setAttribute('id','UpdateYourBrowser');
 		
-	document.body.appendChild(d);
+	document.body.appendChild(container);
 	
 	var content = 
 	'<!--[if lt IE 9]>'+
@@ -19,8 +19,7 @@
 					'<area shape="rect" coords="340,180,450,320" href="http://opera.com/download/" target="_blank" title="Download Opera" alt="Download Opera" />'+
 					'<area shape="rect" coords="480,180,590,320" href="http://apple.com/safari/download/" target="_blank" title="Download Apple Safari" alt="Download Apple Safari" />'+
 				'</map>'+
-	'<![endif]-->'+
-	'';
+	'<![endif]-->';
 	
 	container.innerHTML = content;
 	
