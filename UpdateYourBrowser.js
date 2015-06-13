@@ -1,6 +1,6 @@
 /*@preserve UpdateYourBrowser by Adrian Sieber*/
 
-(function(window, document){
+!function(window, document){
 	var container = document.createElement('div'),
 		content =
 		'<!--[if lt IE 10]>'+
@@ -22,4 +22,4 @@
 
 	document.body.appendChild(container)
 
-})(window, document)
+}(window, document)
